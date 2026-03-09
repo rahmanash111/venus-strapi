@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "job_posts",
+  "info": {
+    "singularName": "job-post",
+    "pluralName": "job-posts",
+    "displayName": "jobPost"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "poster": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "jobTitle": {
+      "type": "string"
+    },
+    "jobDescription": {
+      "type": "string"
+    },
+    "noOfOpenings": {
+      "type": "string"
+    },
+    "experience": {
+      "type": "string"
+    },
+    "salary": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "contact": {
+      "type": "string"
+    },
+    "skills": {
+      "type": "string"
+    }
+  }
+}

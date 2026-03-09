@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_image_image_arrays",
+  "info": {
+    "displayName": "imageArray"
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}

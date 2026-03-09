@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ads_landing_pages",
+  "info": {
+    "singularName": "ads-landing-page",
+    "pluralName": "ads-landing-pages",
+    "displayName": "adsLandingPage"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "keyPoints": {
+      "type": "component",
+      "component": "points.points",
+      "repeatable": true
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "footerImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "images": {
+      "type": "component",
+      "component": "image.image-array",
+      "repeatable": false
+    },
+    "keyword": {
+      "type": "string"
+    }
+  }
+}

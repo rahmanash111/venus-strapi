@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contact_leads",
+  "info": {
+    "singularName": "contact-lead",
+    "pluralName": "contact-leads",
+    "displayName": "ContactLead"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "subject": {
+      "type": "string"
+    },
+    "message": {
+      "type": "text"
+    },
+    "entryDateAndTime": {
+      "type": "string"
+    },
+    "pincode": {
+      "type": "string"
+    },
+    "selectedPackage": {
+      "type": "string"
+    },
+    "propertyName": {
+      "type": "string"
+    },
+    "quoteDetails": {
+      "type": "text"
+    },
+    "leadType": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
