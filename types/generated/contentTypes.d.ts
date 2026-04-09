@@ -487,6 +487,7 @@ export interface ApiContactLeadContactLead extends Struct.CollectionTypeSchema {
       'api::contact-lead.contact-lead'
     > &
       Schema.Attribute.Private;
+    location: Schema.Attribute.String;
     message: Schema.Attribute.Text;
     name: Schema.Attribute.String & Schema.Attribute.Required;
     phone: Schema.Attribute.String & Schema.Attribute.Required;
